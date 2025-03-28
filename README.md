@@ -5,6 +5,7 @@ I developed files for SCADA HMI in InkScape app. In this projects I`ve used SVG-
 <img width="863" alt="Screenshot 2025-03-28 at 19 21 48" src="https://github.com/user-attachments/assets/d3081331-adde-47b4-a010-68aff26a8fda" />
 
 then we simply open our svg file project by using text editor
+
 <img width="436" alt="Screenshot 2025-03-28 at 19 19 43" src="https://github.com/user-attachments/assets/01399ddf-93f9-4128-8f05-38fd60872891" />
 - 
 
