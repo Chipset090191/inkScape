@@ -7,10 +7,13 @@ We use coordinates x and y as a center point of our rotation in Incscape. I also
 
 <img width="863" alt="Screenshot 2025-03-28 at 19 21 48" src="https://github.com/user-attachments/assets/d3081331-adde-47b4-a010-68aff26a8fda" />
 
-then we simply open our svg file project by using text editor and addign "animateTransform" block. So the options we can adjust:
+then we simply open our svg file project by using text editor and addign "animateTransform" block. So the main options we can adjust:
 - repeatCount(definite or indefinite rotation)
-- 
+- dur - the speed of or rotation in seconds
+- to and from - direction of our rotation and center point that I`ve mantioned before x and y coordinates.  
+- type - to determine the type of animation.
 
+  So if we connect our parameter, for example "dur" to equipment like frequency control unit, the user or engineer in real time can see the change of speed as it work in reality. Or if the signal from relay is not positive and "0" means like system is not working, the engineer from the screen will see it too.  So the example shows how we can manipulate our animation by using signals from equipment showing statuses for user in real time from PLC.
 
 <img width="436" alt="Screenshot 2025-03-28 at 19 19 43" src="https://github.com/user-attachments/assets/01399ddf-93f9-4128-8f05-38fd60872891" />
 - 
