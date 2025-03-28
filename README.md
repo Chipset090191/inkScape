@@ -1,9 +1,13 @@
 # inkScape
-My InkScape developed files for SCADA HMI.
+I developed files for SCADA HMI in InkScape app. In this projects I`ve used SVG-animation to make it life. There down below I attached screenshots so You can see
+
+
 
 ### 1. Office inflow - exhaust ventilation
 
 https://github.com/user-attachments/assets/d638f652-1341-47ec-8f98-5172c7c89b86
+
+
 
 ### 2. Boiler room for Logistic center
 
