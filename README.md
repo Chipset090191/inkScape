@@ -1,5 +1,5 @@
 # inkScape
-I developed files for SCADA HMI in InkScape app. In this projects I`ve used SVG-animation to make it life. I attached screenshots down below and there you can see how it works.
+I developed SCADA HMI files using the Inkscape app. In these projects, I used SVG animation to bring them to life. I’ve attached screenshots below so you can see how it works.
 
 ### Explanation of how fan starts rotating
 
@@ -7,13 +7,14 @@ We use coordinates x and y as a center point of our rotation in Incscape. I also
 
 <img width="863" alt="Screenshot 2025-03-28 at 19 21 48" src="https://github.com/user-attachments/assets/d3081331-adde-47b4-a010-68aff26a8fda" />
 
-then we simply open our svg file project by using text editor and addign "animateTransform" block. So the main options we can adjust:
-- repeatCount(definite or indefinite rotation)
-- dur - the speed of or rotation in seconds
-- to and from - direction of our rotation and center point that I`ve mantioned before x and y coordinates.  
-- type - to determine the type of animation.
+Then, we simply open our SVG project file using a text editor and add the "animateTransform" block. The main options we can adjust are:
 
-  So if we connect our parameter, for example "dur" to equipment like frequency control unit, the user or engineer in real time can see the change of speed as it work in reality. Or if the signal from relay is not positive and "0" means like system is not working, the engineer from the screen will see it too.  So the example shows how we can manipulate our animation by using signals from equipment showing statuses for user in real time from PLC.
+repeatCount – Defines whether the rotation is finite or infinite.
+dur – Controls the speed of rotation in seconds.
+from and to – Determines the direction of rotation and the center point (x and y coordinates) mentioned earlier.
+type – Specifies the type of animation.
+
+For example, if we link the "dur" parameter to equipment like a frequency control unit, the user or engineer can see real-time speed changes as they happen in reality. Similarly, if a relay signal is 0, indicating that the system is not functioning, the engineer will see this reflected on the screen. This example demonstrates how we can use signals from equipment to manipulate animations, visually representing real-time statuses from the PLC.
 
 <img width="436" alt="Screenshot 2025-03-28 at 19 19 43" src="https://github.com/user-attachments/assets/01399ddf-93f9-4128-8f05-38fd60872891" />
 - 
